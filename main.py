@@ -32,3 +32,4 @@ if __name__ == "__main__":
             break
         arm.move(command)
         print(arm.status())
+
