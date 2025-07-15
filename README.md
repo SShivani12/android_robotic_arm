@@ -1,14 +1,19 @@
-# Android-COntrolled RObotic ARM (Python)
+# Android Robotic Arm Controller
 
-A basic simulation of a robotic arm controlled via ANdroid (simulated via command input).
-In a real-world case, this could use Bluetooth or HTTP to receive real-time commands from a mobile device.
+This project is a **Flask-based Python API** that allows control of a robotic arm through HTTP commands sent from an Android app. It enables seamless automation and remote manipulation of the arm using simple RESTful endpoints.
 
-## Features
-- Simulates movement: up, down, left, right, grab, release
-- Receives commands from Android (mocked)
+## Key Features
+- Lightweight Flask API for easy deployment
+- Real-time control of robotic arm movements
+- Integration with Android app for remote commands
+- Suitable for automation, robotics learning, and prototyping
+
+## Functionality
+- Simulates robotic arm movements: up, down, left, right, grab, release
+- Receives commands from an Android app (can be simulated via HTTP or Bluetooth)
 
 ## Run
 
-'''bash
+```bash
 python main.py
 
