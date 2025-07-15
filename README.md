@@ -12,8 +12,11 @@ This project is a **Flask-based Python API** that allows control of a robotic ar
 - Simulates robotic arm movements: up, down, left, right, grab, release
 - Receives commands from an Android app (can be simulated via HTTP or Bluetooth)
 
-## Run
+## Installation
+... [rest of your README]
 
-```bash
-python main.py
+---
 
+### 📘 Project Background
+
+This project was initially conceptualized and prototyped in **2020**. The current version is a refreshed rebuild completed in **2025**, designed with modern architecture and API-driven controls for better scalability and usability.
